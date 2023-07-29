@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: coral;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap: 20px;
+    
+
+}
+.sticky{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: none;
+    border-radius: 2px;
+    border: 20px double red;
+    box-shadow: -20px -10px 10px ;
+    background-color: aqua;
+
+    }
+    #addbtn{
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
+        margin-top: 100px;
+        border-radius: 2px;
+        border: none;
+        background-color: darkslategray;
+        color: azure;
+    }
